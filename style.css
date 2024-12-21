@@ -110,11 +110,18 @@ input::placeholder {
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
-    color: #ffffff;
+    color: #171817;
 }
 
 #login a:hover, #sign_up a:hover { 
 color: #9072eb;
+}
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #490ff8;
 }
 
 @media(max-width: 378px){ /*dispositivos celulares*/
