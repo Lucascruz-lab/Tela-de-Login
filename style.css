@@ -59,7 +59,7 @@ body, html {
     background: rgba(20, 19, 19, 0.432);
     backdrop-filter: blur(10px);
     color: #ffffff;
-    width: 250px;
+    width: 200px;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid #490ff8;
@@ -113,7 +113,34 @@ input::placeholder {
     color: #ffffff;
 }
 
-#login a:hover, #sign_up a:hover {
-    color: #9072eb;
+#login a:hover, #sign_up a:hover { 
+color: #9072eb;
 }
 
+@media(max-width: 378px){ /*dispositivos celulares*/
+    #login, #sign_up, #pop_up{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media(max-width: 768px){ /*dispositivos tablets*/
+    #login, #sign_up, #pop_up{
+        width: 60%;
+        margin:130px auto;
+    }
+    .botão{
+        font-size: 18px;
+    }
+}
+
+@media(min-width: 1024px){ /*dispositivos desktops*/
+    #login, #sign_up, #pop_up{
+        width: 40%;
+        margin: 140px auto;
+    }
+
+    .botão{
+        font-size: 20px;
+    }
+}
